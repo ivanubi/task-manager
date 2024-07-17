@@ -1,0 +1,18 @@
+{
+    "app":{
+        "cfengine":"adobe@2021"
+    },
+    "JVM":{
+        "heapSize":"1024",
+        "javaVersion":"openjdk11"
+    },
+    "name":"defensepoint_assesment_new",
+    "web":{
+        "http":{
+            "port":"40000"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}
